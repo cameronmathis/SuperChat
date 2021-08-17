@@ -1,0 +1,57 @@
+.chat-room {
+  width: 100vw;
+}
+
+.messages {
+  padding: 10px;
+  height: 80vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.messages::-webkit-scrollbar {
+  width: 0.5rem;
+  background: var(--clr-accent-dark);
+}
+
+.message-form {
+  justify-self: center;
+  background-color: var(--clr-accent);
+  margin: 5px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  border-radius: 12px;
+  bottom: 0;
+  font-size: 1.5rem;
+}
+
+.send-button {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.send-button > .MuiSvgIcon-root {
+  color: var(--clr-accent-light);
+}
+
+.send-button:hover > .MuiSvgIcon-root {
+  color: var(--clr-light);
+}
+
+.message-input {
+  line-height: 1.5;
+  width: 100%;
+  font-size: 1.5rem;
+  background: var(--clr-accent);
+  color: var(--clr-light);
+  outline: none;
+  border: none;
+  padding: 0 10px;
+}

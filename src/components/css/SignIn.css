@@ -1,0 +1,30 @@
+.sign-in {
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-in-button {
+  color: var(--clr-accent);
+  background: var(--clr-accent-light);
+  max-width: 400px;
+  margin: 0 auto;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+
+.sign-in-button:hover {
+  background: var(--clr-light);
+}
+
+.community-guidelines {
+  line-height: 24px;
+  padding: 10px 20px;
+  color: var(--clr-light);
+}

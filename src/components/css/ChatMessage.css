@@ -1,0 +1,24 @@
+.message {
+  display: flex;
+  align-items: center;
+}
+
+.message-sent {
+  flex-direction: row-reverse;
+}
+
+.message-sent > .message-text {
+  color: var(--clr-light);
+  align-self: flex-end;
+}
+
+.message-received > .message-text {
+  color: var(--clr-light);
+}
+
+.message-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 2px 5px;
+}

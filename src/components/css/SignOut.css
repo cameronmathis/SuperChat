@@ -1,0 +1,18 @@
+.sign-out-button {
+  color: var(--clr-accent);
+  background: var(--clr-accent-light);
+  max-width: 400px;
+  margin: 0 auto;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+
+.sign-out-button:hover {
+  background: var(--clr-light);
+}
