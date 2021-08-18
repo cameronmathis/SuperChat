@@ -5,15 +5,33 @@
 
 .message-sent {
   flex-direction: row-reverse;
+  text-align: right;
 }
 
-.message-sent > .message-text {
-  color: var(--clr-light);
-  align-self: flex-end;
+.message-received {
+  text-align: left;
 }
 
-.message-received > .message-text {
+.message-words {
   color: var(--clr-light);
+}
+
+.message-info {
+  display: flex;
+}
+
+.message-author {
+  margin: 3px;
+  font-weight: bold;
+}
+
+.message-date {
+  color: var(--clr-other);
+  margin: 3px;
+}
+
+.message-text {
+  margin: 3px;
 }
 
 .message-image {

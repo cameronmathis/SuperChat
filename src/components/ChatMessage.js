@@ -7,19 +7,31 @@ import altImage from "../images/AltImage.jpg";
 import "./css/ChatMessage.css";
 
 function ChatMessage(props) {
-  const { text, uid, photoURL } = props.message;
+  const { uid, text, displayName, createdAt, photoURL } = props.message;
+  const log = {
+    text: text,
+    createdAt: createdAt,
+  };
+  console.log(log);
   const messageClass = uid === auth.currentUser.uid ? "sent" : "received";
 
   return (
-    <div className="messages">
-      <div className={`message message-${messageClass}`}>
-        <img
-          className="message-image"
-          src={
-            photoURL || "https://api.adorable.io/avatars/23/abott@adorable.png"
-          }
-          alt={altImage}
-        />
+    <div className={`message message-${messageClass}`}>
+      <img
+        className="message-image"
+        src={
+          photoURL || "https://api.adorable.io/avatars/23/abott@adorable.png"
+        }
+        alt={altImage}
+      />
+      <div className="message-words">
+        <div className="message-info">
+          <p className="message-author">{displayName}</p>
+          <p className="message-date">
+            {new Date(createdAt.seconds * 1000).toLocaleDateString("en-US")}
+          </p>
+          <p></p>
+        </div>
         <p className="message-text">{text}</p>
       </div>
     </div>
