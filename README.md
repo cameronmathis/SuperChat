@@ -1,6 +1,6 @@
 # SuperChat React App
 
-This is a large chatroom react app.
+This is a single chatroom react app.
 
 ## Table of contents
 
