@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/SuperChat/static/css/main.81996b86.chunk.css",
+    "main.js": "/SuperChat/static/js/main.26783433.chunk.js",
+    "main.js.map": "/SuperChat/static/js/main.26783433.chunk.js.map",
+    "runtime-main.js": "/SuperChat/static/js/runtime-main.9cc96a5a.js",
+    "runtime-main.js.map": "/SuperChat/static/js/runtime-main.9cc96a5a.js.map",
+    "static/js/2.64b9b777.chunk.js": "/SuperChat/static/js/2.64b9b777.chunk.js",
+    "static/js/2.64b9b777.chunk.js.map": "/SuperChat/static/js/2.64b9b777.chunk.js.map",
+    "index.html": "/SuperChat/index.html",
+    "static/css/main.81996b86.chunk.css.map": "/SuperChat/static/css/main.81996b86.chunk.css.map",
+    "static/js/2.64b9b777.chunk.js.LICENSE.txt": "/SuperChat/static/js/2.64b9b777.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9cc96a5a.js",
+    "static/js/2.64b9b777.chunk.js",
+    "static/css/main.81996b86.chunk.css",
+    "static/js/main.26783433.chunk.js"
+  ]
+}
