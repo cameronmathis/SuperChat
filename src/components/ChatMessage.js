@@ -28,7 +28,9 @@ function ChatMessage(props) {
         <div className="message-info">
           <p className="message-author">{displayName}</p>
           <p className="message-date">
-            {new Date(createdAt.seconds * 1000).toLocaleDateString("en-US")}
+            {createdAt != null
+              ? new Date(createdAt.seconds * 1000).toLocaleDateString("en-US")
+              : ""}
           </p>
           <p></p>
         </div>
