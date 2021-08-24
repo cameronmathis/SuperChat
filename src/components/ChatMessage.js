@@ -8,11 +8,6 @@ import "./css/ChatMessage.css";
 
 function ChatMessage(props) {
   const { uid, text, displayName, createdAt, photoURL } = props.message;
-  const log = {
-    text: text,
-    createdAt: createdAt,
-  };
-  console.log(log);
   const messageClass = uid === auth.currentUser.uid ? "sent" : "received";
 
   return (

@@ -10,6 +10,7 @@
 
 # production
 /build
+/.firebase
 
 # secrets
 /src/firebase-config.js
