@@ -1,7 +1,6 @@
 {
   "name": "super-chat",
   "version": "0.1.0",
-  "homepage": "http://cameronmathis.github.io/SuperChat",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
@@ -9,6 +8,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "bad-words": "^3.0.4",
     "firebase": "^8.9.1",
     "firebase-tools": "^9.16.5",
     "react": "^17.0.2",
@@ -19,8 +19,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -43,7 +41,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
-  }
+  "devDependencies": {}
 }

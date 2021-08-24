@@ -1,4 +1,4 @@
-### [View Online](http://cameronmathis.github.io/SuperChat)
+### [View Online](https://superchat-clm.web.app/)
 
 # SuperChat React App
 
@@ -18,7 +18,7 @@ This is a React.js Application I created in order to practice realtime applicati
 
 ## Setup
 
-In order to view, visit [this think](http://cameronmathis.github.io/SuperChat).
+In order to view, visit [this think](https://superchat-clm.web.app/).
 
 ## Software details
 
