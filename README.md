@@ -18,7 +18,7 @@ This is a React.js Application I created in order to practice realtime applicati
 
 ## Setup
 
-In order to view, visit [this think]().
+In order to view, visit [this think](http://cameronmathis.github.io/SuperChat).
 
 ## Software details
 
